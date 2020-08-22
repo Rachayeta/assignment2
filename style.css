@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.menubar{
+	text-align : center;
+	height: 70px;
+	background: lightgrey;
+	line-height: 70px;
+}
+.menubar ul li{
+	display: inline-block;
+}
+
+.menubar ul li a{
+	font-size: 20px;
+	color: black;
+	font-weight: 600;
+	margin: 0px 10px;
+	transition: .5s;
+}
+
+.menubar ul li a:hover{
+	color: white;
+	font-size: 20px;
+	transition: .5s;
+}
+
+.banner{
+	background-image: url(Img/Image.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.banner h1{
+	 font-size: 200 px;
+	 text-align: center;
+	 color: black;
+	 padding-top: 30px;
+}
+
+.icon{
+	text-align: center;
+}
+.icon ul li{
+	 list-style: none;
+	 display: inline-block;	 
+}
+
+.icon ul li a i{
+	font-size: 30px;
+	background: lightblue;
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	line-height: 60px;
+	text-align: center;
+	margin: 0 20px;
+	transition: .6s;
+
+}
+.icon ul li a i:hover{
+	color: white;
+	transition: .6s;
+}
+.loginbox {
+	background: darkturquoise;
+	width: 400px;
+	height: 70px;
+	line-height: 70px;
+	margin: 0 auto;
+}
+	
+.loginbox h2{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600px;
+	color: darkgreen;
+}
+
+.form{
+	background: lightgrey;
+	width:400px;
+	height: 320px;
+}
+
+.form i{
+	display: block;
+	font-size: 30px;
+	color: teal;
+	text-align: center;
+	padding-top: 2px;
+}
+ 
+.form input{
+	text-align: center;
+	align-self: center;
+}
+
+.input{
+	background:darkturquoise;
+	width: 400px;
+	height: 70px; 
+}
+.input input{
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	font-size: 25px;
+	margin-left: 140px;
+	color: darkgreen;
+}
+
+.text input{
+	margin-left: 100px;
+	font-size: 15px;
+	width: 200px;
+	height: 30px;
+}
+
+.email input{
+	margin-left: 100px;
+	font-size: 15px;
+	width: 200px;
+	height: 30px;
+}
+
+.pass input{
+	margin-left: 100px;
+	font-size: 15px;
+	width: 200px;
+	height: 30px;
+}
